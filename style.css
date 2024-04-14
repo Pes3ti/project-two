@@ -1,0 +1,75 @@
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open sans", sans-serif;
+ 
+}
+#cabeçalho{
+    height: 150px;
+    background-color: palevioletred;
+  }
+  #principal{
+    height: 200px;
+    background-color: rgb(240, 183, 205);
+    
+  }
+  #rodapé{
+    height: 500px;
+    background-color: rgba(204, 16, 78, 0.425);
+  }
+  #menu{
+    height: 35px;
+    background-color: brown;
+  }
+  .img{
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  #menu-h ul{
+    text-align:center;
+    list-style: none;
+    padding: 0;
+    background-color: brown;
+    
+  }
+  #menu-h ul li{
+    display: inline
+  }
+  #menu-h ul li a{
+    color: beige;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px;
+    transition: background ,1s;
+    
+  }
+  #menu-h ul li a:hover {
+    background-color: rgb(247, 95, 90);
+    
+  }
+    .texto-personalizado{
+      font-family: Century Gothic;
+      font-size: 24px;
+      color: brown;
+      width: 70%;
+      
+    }
+    .container {
+      width: 70%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+      text-align: justify;
+      color: brown;
+      font-size: 30px;
+      
+    }
+
+    
+
+    
